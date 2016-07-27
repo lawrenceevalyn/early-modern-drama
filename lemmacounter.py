@@ -1,31 +1,52 @@
-# For now, I'm just trying to get some pseudocode down, to figure out what I need to figure out.
+# Pseudocode ahoy!
 
-Create a new CSV file
+# TODO: How do I specify the corpus directory?
+# I *definitely* don't want to load the whole corpus at once!
 
-# First just get the plays and characters' word counts down
+Create a new CSV file	# TODO: give it a distinctive name -- the date/time?
+						# I'd rather have a lot of redundant duplicates, than overwrite
 
-Loop: For each file in the corpus
+Loop: For each file in the directory,
+# TODO: How do I handle the fact that some plays are split across multiple XML files?
+# Probably write a separate program to run once before this one?
+# Why were they split across multiple files?
 
 	Create a new line in the CSV
 	
 	Print the TCP number of the play
+				# relevant XML: <idno type="DLPS">A00456</idno>
 	
-	Get a list of the play's characters?
+	Get a list of the play's characters
+				# relevant XML: 
 	
-	Loop: For each character in the play
+	Create a variable for each character, named with their name, to store an integer
+				# I think if I just name the integer value with their actual name,
+				# I can keep the character name and the integer value associated.
 	
-		Print the character's name
+	Loop: For each character in the play,
 		
-		Create a variable to start counting how many words they say?
+		Loop: For each speech in the play tagged with that character's name,
+				
+			Count the lemmas within that speech
+				
+			Add that number to the character's counting variable
+				
+	Order the characters by their integer words-spoken values
+	
+	Loop: For each character in that list
+	
+		Print their name
 		
-			Loop: For each speech in the play tagged with that character's name
+		Print their integer value
+	
+	# Now is when I would calculate whatever I am going to calculate, to capture
+	# the dispersion / variance within the play
+	
+	Delete all the variable names?
+				# Whatever I need to to, so it won't cause problems later
+				# when characters repeat names.
 				
-				Count the lemmas within that speech
-				
-				Add that number to the character's counting variable
-				
-		Print the character's total words spoken
+	End the loop when it's out of files.
+	
+End the program when the loop stops.
 		
-# How can I rearrange the characters in order of most lines to fewest?
-
-# 
