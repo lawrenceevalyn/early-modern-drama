@@ -1,11 +1,13 @@
 # This program is just for trying out operations before they're added to lemmacounter.py
 
 import xml.sax
+from xml.sax import make_parser
+from xml.sax import handler
+from xml.sax.handler import feature_namespaces
 
 # Define your specialized handler classes
-from xml.sax import saxutils
 
-class FindIssue(saxutils.DefaultHandler):
+class FindIssue(xml.sax.ContentHandler):
     def __init__(self, title, number):
         self.search_title, self.search_number = title, number
         
@@ -23,15 +25,19 @@ class FindIssue(saxutils.DefaultHandler):
 # Create an instance of the handler classes
 dh = FindIssue('Sandman', '62')
 
-# Create an XML parser
-from xml.sax import make_parser
-parser = make_parser()
+if __name__ == '__main__':
 
-# Tell the parser to use your handler instance
-parser.setContentHandler(dh)
+	# Create an XML parser
+	parser = make_parser()
+	
+	# Tell the parser we are not interested in XML namespaces (but why??)
+	parser.setFeature(feature_namespaces, 0)
 
-# Parse the file; your handler's methods will get called
-parser.parse(comic-practice.xml)
+	# Tell the parser to use your handler instance
+	parser.setContentHandler(dh)
+
+	# Parse the file; your handler's methods will get called
+	parser.parse(open('comic.xml'))
 
 
 # reference: the line of XML that has what I want:
