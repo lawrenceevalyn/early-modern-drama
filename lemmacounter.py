@@ -1,18 +1,15 @@
-# Pseudocode ahoy!
-
 # Get set up with the corpus
 
 Open the directory
-#TODO: How do I specify the corpus directory?
+#TODO: How do I specify the corpus directory? How do I load files?
 # I *definitely* don't want to load the whole corpus at once!
 
-Create a CSV file somewhere else
+Create a CSV file outside the directory
 #TODO: give it a distinctive name -- the date/time?
 									
 Loop: For each file in the directory,
-#TODO: How do I handle the fact that some plays are split across multiple XML files?
-# Probably write a separate program to run once before this one?
-# Why were they split across multiple files?
+#TODO: write a separate program to run once before this one, to concatenate the plays that are split across files
+# It's easier / more efficient long-term to make sure the corpus is consistent, rather than making this program more complicated
 
 # Get set up with the play
 
@@ -40,15 +37,16 @@ Loop: For each file in the directory,
 # Associate each character with their number of words spoken
 	Loop: For each string in the array,
 			
-		Create an int with the name of that string
-		# If I  name the integer value with the character's actual name,
-		# I can keep the character name and the integer value associated for later.
+		Create an int variable with named after that string
+		# If I  name the integer variable with the character's actual name, I can keep the character name and the integer value associated for later.
 		#TODO: What do I need to store the ints in, to order and then loop through them?
 		# Do I want to pickle them?
 		
 		Loop: For each speech in the play tagged with that string,
 				
 			Count the lemmas within that speech
+			#TODO: I assume it's possible to delimit the program based on the <sp></sp> XML tags (otherwise, what is the point of XML?), but how?
+			# I could either count the appearance of the word "lemma" itself, or count instances of the <w></w> tag.
 				
 			Add that number to the int named for that string
 				
@@ -56,13 +54,13 @@ Loop: For each file in the directory,
 	
 	Loop: For each int,
 	
-		Print the int name (should be character's name) (followed by a comma)
+		Print the int name (followed by a comma)
+		# If I've done the rest right, this will be the speaker's name
 		
-		Print the integer value (followed by a comma)
+		Print the int value (followed by a comma)
 		
 # Do statistics to the characters' words spoken? (value-add)	
-	# Now is when I would calculate whatever I am going to calculate, to capture
-	# the dispersion / variance within the play.
+	# Now is when I would calculate whatever I am going to calculate, to capture the dispersion / variance within the play.
 	#TODO: What metrics should I calculate?
 	
 # Finish the play
