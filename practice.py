@@ -1,4 +1,7 @@
 # This program is just for trying out operations before they're added to lemmacounter.py
+# for when I pick this back up:
+# 1. get it to print the ID number as-is
+# 2. Try to disregard anything that's not an idno
 
 import xml.sax
 from xml.sax import make_parser
@@ -37,7 +40,7 @@ if __name__ == '__main__':
 	parser.setContentHandler(dh)
 
 	# Parse the file; your handler's methods will get called
-	parser.parse(open('comic.xml'))
+	parser.parse(open('practice.xml'))
 
 
 # reference: the line of XML that has what I want:
