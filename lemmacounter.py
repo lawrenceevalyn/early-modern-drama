@@ -2,16 +2,17 @@
 
 # Get set up with the corpus
 
-Open the directory?
-	#TODO: How do I specify the corpus directory?
-	# I *definitely* don't want to load the whole corpus at once!
+Open the directory
+#TODO: How do I specify the corpus directory?
+# I *definitely* don't want to load the whole corpus at once!
 
-Create a CSV file somewhere else	#TODO: give it a distinctive name -- the date/time?
+Create a CSV file somewhere else
+#TODO: give it a distinctive name -- the date/time?
 									
 Loop: For each file in the directory,
-	#TODO: How do I handle the fact that some plays are split across multiple XML files?
-	# Probably write a separate program to run once before this one?
-	# Why were they split across multiple files?
+#TODO: How do I handle the fact that some plays are split across multiple XML files?
+# Probably write a separate program to run once before this one?
+# Why were they split across multiple files?
 
 # Get set up with the play
 
@@ -19,23 +20,31 @@ Loop: For each file in the directory,
 	
 	Print the TCP number of the play (followed by a comma)
 				# relevant XML: <idno type="DLPS">A00456</idno>
+				# "A00456" is what I want
 				
-# Find all the characters within the play
-	Loop: for each <speaker> tag,
+# Find all the speakers within the play
+	Make an array to store all the speaker's names as strings
+	#TODO: is this the best way to store this info?
+	
+	Loop: for each <speaker> tag in the file,
+	#TODO: this will be really inefficient. Do I care?
 				
-		Identify the speaker's name
-					# relevant XML: <speaker><w lemma="Virginius"></w></speaker>
+		Take the speaker's name from the lemma
+				# relevant XML: <speaker><w lemma="Virginius"></w></speaker>
+				# the lemmas will be human-standardized, so I want those, not the <w>
 				
-		See if that string already exists inside the array 
+		See if a string by that name already exists inside the array 
 				
 		If not, add it to the array
 
 # Associate each character with their number of words spoken
 	Loop: For each string in the array,
 			
-		Create an int with the name of that string and add it to an array
-			# I think if I just name the integer value with the character's actual name,
-			# I can keep the character name and the integer value associated for later?
+		Create an int with the name of that string
+		# If I  name the integer value with the character's actual name,
+		# I can keep the character name and the integer value associated for later.
+		#TODO: What do I need to store the ints in, to order and then loop through them?
+		# Do I want to pickle them?
 		
 		Loop: For each speech in the play tagged with that string,
 				
@@ -43,10 +52,9 @@ Loop: For each file in the directory,
 				
 			Add that number to the int named for that string
 				
-	Order the ints within the array by their values
-	#TODO: Can I store ints in an array too...?
+	Order the ints by their values
 	
-	Loop: For each int in the array
+	Loop: For each int,
 	
 		Print the int name (should be character's name) (followed by a comma)
 		
@@ -58,9 +66,8 @@ Loop: For each file in the directory,
 	#TODO: What metrics should I calculate?
 	
 # Finish the play
-	Delete all the variable names?
-				# Whatever I need to to, so it won't cause problems later
-				# when characters repeat names.
+	Delete the array of strings and all the ints
+	#TODO: Whatever I need to to, so it won't cause confusion with later plays.
 				
 	End the loop when it's out of files.
 
