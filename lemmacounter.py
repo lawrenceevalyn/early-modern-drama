@@ -23,12 +23,10 @@ Loop: For each file in the directory,
 	Make an array to store all the speaker's names as strings
 	#TODO: is this the best way to store this info?
 	
-	Loop: for each <speaker> tag in the file,
-	#TODO: this will be really inefficient. Do I care?
+	Loop: for each <sp> tag in the file,
 				
-		Take the speaker's name from the lemma
-				# relevant XML: <speaker><w lemma="Virginius"></w></speaker>
-				# the lemmas will be human-standardized, so I want those, not the <w>
+		Take the speaker's name from "who=" attribute
+				# relevant XML: <sp xml:id="A00456-e101340" who="A00456-virginius">
 				
 		See if a string by that name already exists inside the array 
 				
