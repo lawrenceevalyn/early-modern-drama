@@ -1,15 +1,13 @@
 # Get set up with the corpus
 
 import xml.etree.ElementTree as ET # imports my XML reading function
-tree = ET.parse('practice.xml')
-root = tree.getroot()
 
 Create a CSV file outside the directory
 #TODO: give it a distinctive name -- the date/time?
 
-Get a list of all the files in the directory
+
+os.listdir("./corpus-xml") #Get a list of all the files in the directory
 # https://stackoverflow.com/questions/3207219/how-to-list-all-files-of-a-directory-in-python
-# os.listdir()
 									
 Loop: For each file in the directory,
 #TODO: write a separate program to run once before this one, to concatenate the plays that are split across files
@@ -18,6 +16,8 @@ Loop: For each file in the directory,
 # Get set up with the play
 
 	parse() the play's file?
+	# tree = ET.parse('practice.xml')
+	# root = tree.getroot()
 	
 	Create a new line in the CSV
 	
