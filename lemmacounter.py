@@ -1,11 +1,15 @@
 # Get set up with the corpus
 
-Open the directory
-#TODO: How do I specify the corpus directory? How do I load files?
-# I *definitely* don't want to load the whole corpus at once!
+import xml.etree.ElementTree as ET # imports my XML reading function
+tree = ET.parse('practice.xml')
+root = tree.getroot()
 
 Create a CSV file outside the directory
 #TODO: give it a distinctive name -- the date/time?
+
+Get a list of all the files in the directory
+# https://stackoverflow.com/questions/3207219/how-to-list-all-files-of-a-directory-in-python
+# os.listdir()
 									
 Loop: For each file in the directory,
 #TODO: write a separate program to run once before this one, to concatenate the plays that are split across files
@@ -13,6 +17,8 @@ Loop: For each file in the directory,
 
 # Get set up with the play
 
+	parse() the play's file?
+	
 	Create a new line in the CSV
 	
 	Print the TCP number of the play (followed by a comma)
@@ -35,7 +41,7 @@ Loop: For each file in the directory,
 # Associate each character with their number of words spoken
 	Loop: For each string in the array,
 			
-		Create an int variable with named after that string
+		Create an int variable named after that string
 		# If I  name the integer variable with the character's actual name, I can keep the character name and the integer value associated for later.
 		#TODO: What do I need to store the ints in, to order and then loop through them?
 		# Do I want to pickle them?
@@ -72,11 +78,6 @@ End the program when the loop stops.
 
 # For reference: the XML structure of speeches:
 #	<sp xml:id="A00456-e101340" who="A00456-virginius">
-#		<speaker>
-#			<w lemma="Virginius" ana="#n1-nn" xml:id="A00456-013080" 
-#			facs="3-b-2320">Virginius</w>
-#			<pc xml:id="A00456-013090" unit="sentence" facs="3-b-2330">.</pc>
-#		</speaker>
 #		<l xml:id="A00456-e101350">
 #			<w lemma="ah" ana="#uh" xml:id="A00456-013110" facs="3-b-2340">Ah</w>
 #		</l>
