@@ -3,27 +3,23 @@
 
 import elementtree.ElementTree as ET
 
-def find-idno(filename):
+def find_idno(xmlstring):
 
-	fp = open(filename,"r")	#fp stands for file pointer, r stands for read
-	tree = ET.parse(fp)
-	root = tree.getroot()
+	root = ET.fromstring(xmlstring)
 
-	#finds all five idnos!!! but searches whole biblFull
-	idnos = root.findall('.//biblFull/publicationStmt/idno') 
+	#finds all five idnos!!! but searches whole publicationStmt
+	idnos = root.findall('.//publicationStmt/idno') 
 	# also valid: root.findall('.//idno')
 	# inexplicably not valid: root.findall('.//teiHeader/biblFull/publicationStmt/idno')
 
+	idnoVal = "you have a problem with find_idno"
+	
 	# let's use a loop now because ElementTree can't use XPATH
 	for idno in idnos :
 		if idno.attrib.get('type') == 'DLPS' :
-			print "found DLPS"
-			break # this immediately ends the loop and grabs the current value as "idno"
-	
-		else :
-			print "no DLPS"
-
+			idnoVal = idno.text
+			
 	# returns the text of the idno element we're holding
-	return idno.text
+	return idnoVal
 
 	# IT WORKS! IT WORKS!
