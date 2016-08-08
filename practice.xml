@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A00456">
+<TEI>
   <teiHeader>
     <fileDesc>
     <sourceDesc>
@@ -18,7 +18,7 @@
           </fileDesc>
     </teiHeader>
     
-<text xml:lang="eng" xml:id="A00456-e100010">
+  <text xml:lang="eng" xml:id="A00456-e100010">
 	<body xml:id="A00456-e100670">
 	<div type="play" xml:id="A00456-e100680">
 		<sp xml:id="A00456-e101340" who="A00456-virginius">

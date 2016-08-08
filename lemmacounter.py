@@ -19,6 +19,8 @@ Loop: For each file in the directory,
 	# tree = ET.parse('practice.xml')
 	# root = tree.getroot()
 	
+	Delete the file's namespace
+	
 	Create a new line in the CSV
 	
 	Print the TCP number of the play (followed by a comma)
