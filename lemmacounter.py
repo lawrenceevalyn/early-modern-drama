@@ -1,6 +1,8 @@
 # Get set up with the corpus
 
 import xml.etree.ElementTree as ET # imports my XML reading function
+from find-idno.py import find-idno
+
 
 Create a CSV file outside the directory
 #TODO: give it a distinctive name -- the date/time?
@@ -15,17 +17,14 @@ Loop: For each file in the directory,
 
 # Get set up with the play
 
-	parse() the play's file?
-	# tree = ET.parse('practice.xml')
-	# root = tree.getroot()
 	
 	Delete the file's namespace
 	
 	Create a new line in the CSV
 	
 	Print the TCP number of the play (followed by a comma)
-				# relevant XML: <idno type="DLPS">A00456</idno>
-				# "A00456" is what I want
+	idno = find-idno(INPUTSTRINGGOESHERE)
+		# calls find-idno.py to assign the file's DLPS idno to the string idno
 				
 # Find all the speakers within the play
 	Make an array to store all the speaker's names as strings

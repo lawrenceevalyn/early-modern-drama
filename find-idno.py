@@ -1,24 +1,29 @@
+# this is a function that takes in a file name and returns the idno as an object
+# nowhere does it say that it takes in a string and returns a string; it just does
+
 import elementtree.ElementTree as ET
 
-fp = open("practice.xml","r")	#fp stands for file pointer, r stands for read
-tree = ET.parse(fp)
-root = tree.getroot()
+def find-idno(filename):
 
-#finds all five idnos!!! but searches whole biblFull
-idnos = root.findall('.//biblFull/publicationStmt/idno') 
-# also valid: root.findall('.//idno')
-# inexplicably not valid: root.findall('.//teiHeader/biblFull/publicationStmt/idno')
+	fp = open(filename,"r")	#fp stands for file pointer, r stands for read
+	tree = ET.parse(fp)
+	root = tree.getroot()
 
-# let's use a loop now because ElementTree can't use XPATH
-for idno in idnos :
-	if idno.attrib.get('type') == 'DLPS' :
-		print "found DLPS"
-		break # this immediately ends the loop and grabs the current value as "idno"
+	#finds all five idnos!!! but searches whole biblFull
+	idnos = root.findall('.//biblFull/publicationStmt/idno') 
+	# also valid: root.findall('.//idno')
+	# inexplicably not valid: root.findall('.//teiHeader/biblFull/publicationStmt/idno')
+
+	# let's use a loop now because ElementTree can't use XPATH
+	for idno in idnos :
+		if idno.attrib.get('type') == 'DLPS' :
+			print "found DLPS"
+			break # this immediately ends the loop and grabs the current value as "idno"
 	
-	else :
-		print "no DLPS"
+		else :
+			print "no DLPS"
 
-# prints the text of the idno element we're holding
-print idno.text
+	# returns the text of the idno element we're holding
+	return idno.text
 
-# IT WORKS! IT WORKS!
+	# IT WORKS! IT WORKS!
