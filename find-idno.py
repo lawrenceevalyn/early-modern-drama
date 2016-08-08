@@ -5,12 +5,11 @@ tree = ET.parse(fp)
 root = tree.getroot()
 
 #finds all five idnos!!! but searches whole biblFull
-#idnos = root.findall('.//biblFull/publicationStmt/idno') 
+idnos = root.findall('.//biblFull/publicationStmt/idno') 
 # also valid: root.findall('.//idno')
 # inexplicably not valid: root.findall('.//teiHeader/biblFull/publicationStmt/idno')
 
-idnos = root.findall(".//biblFull/publicationStmt/idno") 
-
+# let's use a loop now because ElementTree can't use XPATH
 for idno in idnos :
 	if idno.attrib.get('type') == 'DLPS' :
 		print "found DLPS"
@@ -19,16 +18,7 @@ for idno in idnos :
 	else :
 		print "no DLPS"
 
-print idno
+# prints the text of the idno element we're holding
+print idno.text
 
-#print len(idnos)
-
-# for idno in idnos :
-#	print "found idno"
-	
-	
-	
-# mydoc = ET(file='practice.xml')
-
-#for e in mydoc.findall('/text'):
-#    print len (e)
+# IT WORKS! IT WORKS!
