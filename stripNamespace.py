@@ -2,7 +2,7 @@
 
 import re
 
-def strip(path):
+def stripNamespace(path):
 	# open the file and convert it to a string
 	with open(path, 'r') as myfile:
 		xmlstring=myfile.read()
