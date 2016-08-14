@@ -37,7 +37,7 @@ for filename in os.listdir("./corpus_xml"):
 	c += lemmacounts
 	
 with open('newfile.csv','w') as csvfile:
-	fieldnames=['play DLPS','speaker','count']
+	fieldnames=['tcp','speaker','count']
 	writer=csv.writer(csvfile)
 	writer.writerow(fieldnames)
 	for key, value in c.items():
