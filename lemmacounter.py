@@ -18,8 +18,5 @@ def lemmacounter(xmlstring):
 			words = l.findall('w')
 			for w in words:
 				c[speaker]+=1
-		
-		#TODO: make it increment by the number of words spoken!!
-		#(right now it's just number of speeches made)
 	
 	return c
