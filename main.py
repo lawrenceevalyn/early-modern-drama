@@ -13,7 +13,7 @@ from lemmacounter import lemmacounter
 c = collections.Counter()
 
 # iterate through the directory
-for filename in os.listdir("./test_corpus"):
+for filename in os.listdir("./corpus_xml"):
 # TODO: figure out why this won't run on the real corpus; fix it
 # (it looks like there are some malformed files in the corpus --
 # try printing the name of each file to spot the bad ones?
@@ -22,7 +22,7 @@ for filename in os.listdir("./test_corpus"):
 # 2. something broken with the XML where it doesn't have the idno or the sp or who knows
 
 	# define the path to this file
-	path = "./test_corpus/" + filename
+	path = "./corpus_xml/" + filename
 		#TODO: don't forget to change the path here too
 
 	# strip the file's namespace
