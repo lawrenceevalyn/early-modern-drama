@@ -1,4 +1,4 @@
-play DLPS,speaker,count
+tcp,speaker,count
 A00456,virginius,1541
 A00456,haphazard,1539
 A00456,appius,1316
