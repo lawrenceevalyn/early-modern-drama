@@ -26,15 +26,24 @@ for filename in os.listdir("./corpus_xml"):
 		#TODO: don't forget to change the path here too
 
 	# strip the file's namespace
-	xmlstring = stripNamespace(path)
+	try:
+		xmlstring = stripNamespace(path)
+	except:
+		print "error stripping namespace"
 	
 	# call find-idno.py to print the file's DLPS idno
-	idno = find_idno(xmlstring)
-	print idno
+	try:
+		idno = find_idno(xmlstring)
+		print idno
+	except:
+		print "error finding IDNO"
 
-	# call lemmacounter.py to use a counter on the sp elements
-	lemmacounts = lemmacounter(xmlstring)
-	c += lemmacounts
+	# call lemmacounter.py to use a counter on the w elements
+	try:
+		lemmacounts = lemmacounter(xmlstring)
+		c += lemmacounts
+	except:
+		print "error counting lemmas"
 	
 with open('newfile.csv','w') as csvfile:
 	fieldnames=['tcp','speaker','count']
