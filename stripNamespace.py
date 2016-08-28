@@ -8,6 +8,6 @@ def stripNamespace(path):
 		xmlstring=myfile.read()
     
 		# use a regex!
-		xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring, count=1)
+		xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring)
 		
 	return xmlstring
