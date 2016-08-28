@@ -1,5 +1,8 @@
 import collections
-import elementtree.ElementTree as ET
+try:
+    import xml.etree.cElementTree as ET
+except ImportError:
+    import xml.etree.ElementTree as ET
 
 def lemmacounter(xmlstring):
 	
@@ -15,8 +18,26 @@ def lemmacounter(xmlstring):
 		speaker = sp.attrib.get('who')
 		lines = sp.findall('l')
 		for l in lines:
+#			print l.tag, l.attrib
 			words = l.findall('w')
 			for w in words:
 				c[speaker]+=1
 	
+		linegroups = sp.findall('lg')
+		for lg in linegroups:
+#			print lg.tag, lg.attrib
+			lines = lg.findall('l')
+			for l in lines:
+#				print l.tag, l.attrib
+				words = l.findall('w')
+				for w in words:
+					c[speaker]+=1
+
+		paragraphs = sp.findall('p')
+		for p in paragraphs:
+#			print "found a paragraph"
+			words = p.findall('w')
+			for w in words:
+				c[speaker]+=1
+
 	return c
