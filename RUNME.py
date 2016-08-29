@@ -20,6 +20,7 @@ countersList = []
 
 numfiles = 0
 allLemmasCount = 0
+directory = "corpus_xml"
 
 # make listdir ignore .DS_store (and other hidden files)
 def listdir_nohidden(path):
@@ -28,14 +29,14 @@ def listdir_nohidden(path):
             yield f
 
 # iterate through the directory
-for filename in listdir_nohidden("./corpus_xml"):
+for filename in listdir_nohidden("./" + directory):
 # TODO: figure out why this won't run on the real corpus; fix it
 # things that might be the issue: 1. stripNamespaces has a problem? compare xmlstring
 # before and after stripNamespaces (see if there's a function to look at the difference)
 # 2. something broken with the XML where it doesn't have the idno or the sp or who knows
 
 	# define the path to this file
-	path = "./corpus_xml/" + filename
+	path = "./" + directory + "/" + filename
 
 	# strip the file's namespace
 	try:
@@ -53,12 +54,10 @@ for filename in listdir_nohidden("./corpus_xml"):
 	# call lemmacounter.py to use a counter on the w elements
 	try:
 		lemmacounts = lemmacounter(xmlstring)
-#		megaCounter += lemmacounts
 		countersList.append(lemmacounts)
 		numkeys = len(lemmacounts.keys())
 		print numkeys
-		allLemmasCount += numkeys
-	
+		allLemmasCount += numkeys	
 	except:
 		print "error counting lemmas of file %s" % (filename)
 		
@@ -68,20 +67,24 @@ for filename in listdir_nohidden("./corpus_xml"):
 print "I read %d files" % (numfiles)
 print "total number of keys in list: %d" % (allLemmasCount)
 
+#TODO: merge counters of plays with the same title (but NOT the same idno)
+
 for counter in countersList:
+#	print counter
 	megaCounter += counter
 
 print "total number of keys in megaCounter: %d" % (len(megaCounter.keys()))
 
-with open('newfile.csv','w') as csvfile:
+newfilename = "output_%s.csv" % (directory)
+with open(newfilename,'w') as csvfile:
 	fieldnames=['tcp','speaker','count']
 	writer=csv.writer(csvfile)
 	writer.writerow(fieldnames)
 	for key, value in megaCounter.items():
-		keydata = key.split('-') # makes an array of strings out of the key string
+		keydata = key.split('-', 1)
 		if len(keydata) != 2 :
-			print "oooops! bad keydata: " + keydata
-		rowdata = [keydata[0],keydata[1],value] # adds count value to array of strings
+			print "oooops! bad keydata: %r" % (keydata)
+		rowdata = [keydata[0],keydata[1],value]
 		writer.writerow(rowdata) 
 	
 	#TODO: further refine output of data based on research needs
