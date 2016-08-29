@@ -10,4 +10,7 @@ def stripNamespace(path):
 		# use a regex!
 		xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring)
 		
+		# add the xml version and unicode encoding
+		xmlstring = '<?xml version="1.0" encoding="utf-8"?>' + xmlstring
+		
 	return xmlstring
