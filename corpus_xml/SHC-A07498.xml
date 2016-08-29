@@ -11200,7 +11200,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e105420" who="black_knight">
+            <sp xml:id="A07498-e105420" who="A07498-black_knight">
               <speaker>
                 <w lemma="b" ana="#sy" xml:id="A07498-040630" facs="9-a-0560">B</w>
                 <c> </c>
@@ -11307,7 +11307,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e105490" who="black_bishop_pawn">
+            <sp xml:id="A07498-e105490" who="A07498-black_bishop_pawn">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-041020" facs="9-a-0870">
                   <choice>
@@ -11571,7 +11571,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e105640" who="black_bishop_pawn">
+            <sp xml:id="A07498-e105640" who="A07498-black_bishop_pawn">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-041970" facs="9-a-1740" rendition="hi">
                   <choice>
@@ -11664,7 +11664,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e105690" who="black_knight">
+            <sp xml:id="A07498-e105690" who="A07498-black_knight">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-042380" facs="9-a-2110">
                   <choice>
@@ -11866,7 +11866,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e105790" who="black_knight">
+            <sp xml:id="A07498-e105790" who="A07498-black_knight">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-043090" facs="9-a-2740">
                   <choice>
@@ -11901,7 +11901,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e105820" who="black_bishop_pawn">
+            <sp xml:id="A07498-e105820" who="A07498-black_bishop_pawn">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-043230" facs="9-a-2840" rendition="hi">
                   <choice>
@@ -12222,7 +12222,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e106010" who="black_bishop_pawn">
+            <sp xml:id="A07498-e106010" who="A07498-black_bishop_pawn">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-044400" facs="9-b-0400">
                   <choice>
@@ -12295,7 +12295,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e106070" who="black_bishop_pawn">
+            <sp xml:id="A07498-e106070" who="A07498-black_bishop_pawn">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-044640" facs="9-b-0560" rendition="hi">
                   <choice>
@@ -12324,7 +12324,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e106100" who="black_knight">
+            <sp xml:id="A07498-e106100" who="A07498-black_knight">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-044740" facs="9-b-0630">
                   <choice>
@@ -12369,7 +12369,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e106130" who="black_bishop_pawn">
+            <sp xml:id="A07498-e106130" who="A07498-black_bishop_pawn">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-044910" facs="9-b-0750">
                   <choice>
@@ -12617,7 +12617,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </w>
               <pc xml:id="A07498-045790" unit="sentence" facs="9-b-1490">.</pc>
             </stage>
-            <sp xml:id="A07498-e106290" who="black_bishop_pawn">
+            <sp xml:id="A07498-e106290" who="A07498-black_bishop_pawn">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-045830" facs="9-b-1500">
                   <choice>
@@ -12662,7 +12662,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <pc xml:id="A07498-045950" unit="sentence" facs="9-b-1610">.</pc>
               </p>
             </sp>
-            <sp xml:id="A07498-e106310" who="black_knight">
+            <sp xml:id="A07498-e106310" who="A07498-black_knight">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-045990" facs="9-b-1620">
                   <choice>
@@ -13067,7 +13067,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </l>
               </lg>
             </sp>
-            <sp xml:id="A07498-e106490" who="black_knight">
+            <sp xml:id="A07498-e106490" who="A07498-black_knight">
               <speaker>
                 <w lemma="black" ana="#j" xml:id="A07498-047510" facs="9-b-3060">
                   <choice>
@@ -13520,7 +13520,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="p." ana="#n1" xml:id="A07498-049070" facs="10-a-0870">p.</w>
             <pc xml:id="A07498-049070-eos" unit="sentence" facs="10-a-0880"/>
           </stage>
-          <sp xml:id="A07498-e106700" who="black_bishop_pawn">
+          <sp xml:id="A07498-e106700" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-049110" facs="10-a-0890">
                 <choice>
@@ -14451,7 +14451,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e106980" who="black_bishop_pawn">
+          <sp xml:id="A07498-e106980" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-052510" facs="10-b-1110">
                 <choice>
@@ -14673,7 +14673,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e107110" who="black_bishop_pawn">
+          <sp xml:id="A07498-e107110" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-053370" facs="10-b-1900">
                 <choice>
@@ -14770,7 +14770,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-053680" unit="sentence" facs="10-b-2160">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e107170" who="black_bishop_pawn">
+          <sp xml:id="A07498-e107170" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-053720" facs="10-b-2170">
                 <choice>
@@ -14846,7 +14846,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e107210" who="white_queen_pawn">
+          <sp xml:id="A07498-e107210" who="A07498-white_queen_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-053940" facs="10-b-2350" rendition="hi">
                 <choice>
@@ -14871,7 +14871,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-054010" unit="sentence" facs="10-b-2400">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e107230" who="black_bishop_pawn">
+          <sp xml:id="A07498-e107230" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-054050" facs="10-b-2410">
                 <choice>
@@ -24222,7 +24222,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e111850" who="black_bishop">
+          <sp xml:id="A07498-e111850" who="A07498-black_bishop">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-088130" facs="15-a-2960">
                 <choice>
@@ -26625,7 +26625,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e113030" who="black_knight">
+          <sp xml:id="A07498-e113030" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-096630" facs="16-b-1410">
                 <choice>
@@ -26743,7 +26743,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-097060-eos" unit="sentence" facs="16-b-1800"/>
             </p>
           </sp>
-          <sp xml:id="A07498-e113100" who="black_knight">
+          <sp xml:id="A07498-e113100" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-097100" facs="16-b-1810">
                 <choice>
@@ -27281,7 +27281,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e113340" who="black_knight">
+          <sp xml:id="A07498-e113340" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-099000" facs="17-a-0170">
                 <choice>
@@ -27522,7 +27522,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-099840" unit="sentence" facs="17-a-0880">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e113500" who="black_knight">
+          <sp xml:id="A07498-e113500" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-099880" facs="17-a-0890">
                 <choice>
@@ -27916,7 +27916,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e113720" who="black_knight">
+          <sp xml:id="A07498-e113720" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-101430" facs="17-a-2120">
                 <choice>
@@ -28784,7 +28784,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-104540" unit="sentence" facs="17-b-1680">:</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e114240" who="black_bishop">
+          <sp xml:id="A07498-e114240" who="A07498-black_bishop">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-104580" facs="17-b-1690">
                 <choice>
@@ -29153,7 +29153,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-105730" unit="sentence" facs="17-b-2750">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e114390" who="black_queen">
+          <sp xml:id="A07498-e114390" who="A07498-black_queen">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-105770" facs="17-b-2760">
                 <choice>
@@ -30152,7 +30152,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="knight" ana="#n1" xml:id="A07498-109210" facs="18-a-2500">Knight</w>
             <pc xml:id="A07498-109220" unit="sentence" facs="18-a-2510">.</pc>
           </stage>
-          <sp xml:id="A07498-e114830" who="black_knight">
+          <sp xml:id="A07498-e114830" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-109260" facs="18-a-2520">
                 <choice>
@@ -33288,7 +33288,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e116140" who="black_knight_pawn">
+          <sp xml:id="A07498-e116140" who="A07498-black_knight_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-120110" facs="20-a-0280">
                 <choice>
@@ -33325,7 +33325,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-120210" unit="sentence" facs="20-a-0370">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e116160" who="black_knight">
+          <sp xml:id="A07498-e116160" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-120250" facs="20-a-0380">
                 <choice>
@@ -33731,7 +33731,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-121720" unit="sentence" facs="20-a-1650">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e116380" who="black_knight">
+          <sp xml:id="A07498-e116380" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-121760" facs="20-a-1660">
                 <choice>
@@ -34512,7 +34512,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e116760" who="black_bishop">
+          <sp xml:id="A07498-e116760" who="A07498-black_bishop">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-124330" facs="20-b-0490">
                 <choice>
@@ -34696,7 +34696,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e116870" who="black_knight">
+          <sp xml:id="A07498-e116870" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-124990" facs="20-b-1030">
                 <choice>
@@ -36802,7 +36802,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-132340" unit="sentence" facs="21-b-1180">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e117990" who="black_queen_pawn">
+          <sp xml:id="A07498-e117990" who="A07498-black_queen_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-132380" facs="21-b-1190">
                 <choice>
@@ -36920,7 +36920,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e118050" who="black_queen">
+          <sp xml:id="A07498-e118050" who="A07498-black_queen">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-132820" facs="21-b-1580">
                 <choice>
@@ -37353,7 +37353,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-134360-eos" unit="sentence" facs="21-b-2890"/>
             </p>
           </sp>
-          <sp xml:id="A07498-e118270" who="black_queen">
+          <sp xml:id="A07498-e118270" who="A07498-black_queen">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-134400" facs="21-b-2900">
                 <choice>
@@ -37770,7 +37770,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-135870" unit="sentence" facs="22-a-0830">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e118510" who="black_knight">
+          <sp xml:id="A07498-e118510" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-135910" facs="22-a-0840">
                 <choice>
@@ -37935,7 +37935,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e118610" who="black_knight">
+          <sp xml:id="A07498-e118610" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-136540" facs="22-a-1390">
                 <choice>
@@ -38228,7 +38228,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e118770" who="black_knight">
+          <sp xml:id="A07498-e118770" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-137580" facs="22-a-2270">
                 <choice>
@@ -38499,7 +38499,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-138501" unit="sentence" facs="22-a-3100">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e118900" who="white_queen">
+          <sp xml:id="A07498-e118900" who="A07498-white_queen">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-138540" facs="22-a-3110">
                 <choice>
@@ -41368,7 +41368,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e120430" who="black_queen_pawn">
+          <sp xml:id="A07498-e120430" who="A07498-black_queen_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-149140" facs="23-b-1820">
                 <choice>
@@ -42020,7 +42020,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e120770" who="black_pawn">
+          <sp xml:id="A07498-e120770" who="A07498-black_pawn">
             <speaker>
               <w lemma="bishop" ana="#n1" xml:id="A07498-151550" facs="24-a-0170">
                 <choice>
@@ -45942,7 +45942,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e122730" who="black_bishop_pawn">
+          <sp xml:id="A07498-e122730" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-165710" facs="26-a-0360">
                 <choice>
@@ -46106,7 +46106,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e122810" who="black_bishop_pawn">
+          <sp xml:id="A07498-e122810" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-166300" facs="26-a-0870">
                 <choice>
@@ -46366,7 +46366,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e122950" who="black_bishop_pawn">
+          <sp xml:id="A07498-e122950" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-167270" facs="26-a-1760">
                 <choice>
@@ -46443,7 +46443,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-167530" unit="sentence" facs="26-a-1970">)</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e122990" who="black_bishop_pawn">
+          <sp xml:id="A07498-e122990" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-167570" facs="26-a-1980">
                 <choice>
@@ -46699,7 +46699,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-168450" unit="sentence" facs="26-a-2800">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e123120" who="black_bishop_pawn">
+          <sp xml:id="A07498-e123120" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-168490" facs="26-a-2810" rendition="hi">
                 <choice>
@@ -48019,7 +48019,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e123810" who="black_bishop_pawn">
+          <sp xml:id="A07498-e123810" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-173180" facs="27-a-0680">
                 <choice>
@@ -48596,7 +48596,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e124120" who="black_bishop_pawn">
+          <sp xml:id="A07498-e124120" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-175260" facs="27-a-2520" rendition="hi">
                 <choice>
@@ -48939,7 +48939,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="p." ana="#n1" xml:id="A07498-176540" facs="27-b-0140">p.</w>
             <pc xml:id="A07498-176540-eos" unit="sentence" facs="27-b-0150"/>
           </stage>
-          <sp xml:id="A07498-e124310" who="black_bishop_pawn">
+          <sp xml:id="A07498-e124310" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-176580" facs="27-b-0160" rendition="hi">
                 <choice>
@@ -49293,7 +49293,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e124510" who="black_bishop_pawn">
+          <sp xml:id="A07498-e124510" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-178010" facs="27-b-1340" rendition="hi">
                 <choice>
@@ -49335,7 +49335,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-178130" unit="sentence" facs="27-b-1450">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e124530" who="black_queen_pawn">
+          <sp xml:id="A07498-e124530" who="A07498-black_queen_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-178170" facs="27-b-1460">
                 <choice>
@@ -49585,7 +49585,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e124660" who="black_bishop_pawn">
+          <sp xml:id="A07498-e124660" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-179210" facs="27-b-2460" rendition="hi">
                 <choice>
@@ -50171,7 +50171,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e124960" who="black_bishop_pawn">
+          <sp xml:id="A07498-e124960" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-181450" facs="28-a-1070" rendition="hi">
                 <choice>
@@ -50201,7 +50201,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-181510" unit="sentence" facs="28-a-1120">!</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e124980" who="black_queen_pawn">
+          <sp xml:id="A07498-e124980" who="A07498-black_queen_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-181550" facs="28-a-1130">
                 <choice>
@@ -50329,7 +50329,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e125050" who="black_bishop_pawn">
+          <sp xml:id="A07498-e125050" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-182040" facs="28-a-1580" rendition="hi">
                 <choice>
@@ -50726,7 +50726,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </w>
             <pc xml:id="A07498-183460" unit="sentence" facs="28-a-2870">.</pc>
           </stage>
-          <sp xml:id="A07498-e125260" who="black_knight">
+          <sp xml:id="A07498-e125260" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-183500" facs="28-a-2880">
                 <choice>
@@ -51993,7 +51993,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-187770" unit="sentence" facs="29-a-0360">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e125770" who="black_knight">
+          <sp xml:id="A07498-e125770" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-187810" facs="29-a-0370">
                 <choice>
@@ -53387,7 +53387,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-192620" unit="sentence" facs="29-b-1550">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e126340" who="black_knight_pawn">
+          <sp xml:id="A07498-e126340" who="A07498-black_knight_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-192660" facs="29-b-1560">
                 <choice>
@@ -53452,7 +53452,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e126380" who="black_knight">
+          <sp xml:id="A07498-e126380" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-192920" facs="29-b-1780">
                 <choice>
@@ -53647,7 +53647,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e126480" who="black_knight">
+          <sp xml:id="A07498-e126480" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-193570" facs="29-b-2350">
                 <choice>
@@ -53846,7 +53846,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e126570" who="fat_bishop">
+          <sp xml:id="A07498-e126570" who="A07498-fat_bishop">
             <speaker>
               <w lemma="fat" ana="#j" xml:id="A07498-194360" facs="29-b-3100">
                 <choice>
@@ -53924,7 +53924,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e126610" who="black_knight">
+          <sp xml:id="A07498-e126610" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-194670" facs="29-b-3380">
                 <choice>
@@ -54165,7 +54165,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-195450" unit="sentence" facs="30-a-0340">)</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e126740" who="black_knight">
+          <sp xml:id="A07498-e126740" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-195490" facs="30-a-0350">
                 <choice>
@@ -54322,7 +54322,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e126820" who="fat_bishop">
+          <sp xml:id="A07498-e126820" who="A07498-fat_bishop">
             <speaker>
               <w lemma="fat" ana="#j" xml:id="A07498-196050" facs="30-a-0790">
                 <choice>
@@ -54360,7 +54360,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-196160" unit="sentence" facs="30-a-0890">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e126840" who="black_knight">
+          <sp xml:id="A07498-e126840" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-196200" facs="30-a-0900">
                 <choice>
@@ -54533,7 +54533,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
             </p>
           </sp>
-          <sp xml:id="A07498-e126860" who="black_knight_pawn">
+          <sp xml:id="A07498-e126860" who="A07498-black_knight_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-196780" facs="30-a-1440">
                 <choice>
@@ -54614,7 +54614,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e126900" who="fat_bishop">
+          <sp xml:id="A07498-e126900" who="A07498-fat_bishop">
             <speaker>
               <w lemma="fat" ana="#j" xml:id="A07498-197080" facs="30-a-1700">
                 <choice>
@@ -54835,7 +54835,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e127040" who="black_knight_pawn">
+          <sp xml:id="A07498-e127040" who="A07498-black_knight_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-197940" facs="30-a-2440">
                 <choice>
@@ -55059,7 +55059,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e127160" who="black_knight">
+          <sp xml:id="A07498-e127160" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-198760" facs="30-a-3140">
                 <choice>
@@ -55166,7 +55166,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e127210" who="fat_bishop">
+          <sp xml:id="A07498-e127210" who="A07498-fat_bishop">
             <pb facs="30"/>
             <speaker>
               <w lemma="fat" ana="#j" xml:id="A07498-199130" facs="30-b-0010">
@@ -55307,7 +55307,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e127300" who="black_knight">
+          <sp xml:id="A07498-e127300" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-199610" facs="30-b-0410">
                 <choice>
@@ -56124,7 +56124,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e127650" who="black_knight">
+          <sp xml:id="A07498-e127650" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-202500" facs="30-b-2970">
                 <choice>
@@ -59535,7 +59535,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e129240" who="black_bishop_pawn">
+          <sp xml:id="A07498-e129240" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-214810" facs="32-b-0770" rendition="hi">
                 <choice>
@@ -59564,7 +59564,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-214890" unit="sentence" facs="32-b-0840">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e129260" who="black_knight">
+          <sp xml:id="A07498-e129260" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-214930" facs="32-b-0850">
                 <choice>
@@ -60995,7 +60995,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="they" ana="#pno" xml:id="A07498-220260" facs="33-b-0170">them</w>
             <pc xml:id="A07498-220270" unit="sentence" facs="33-b-0180">.</pc>
           </stage>
-          <sp xml:id="A07498-e130010" who="white_queen_pawn">
+          <sp xml:id="A07498-e130010" who="A07498-white_queen_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-220310" facs="33-b-0190" rendition="hi">
                 <choice>
@@ -61235,7 +61235,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130100" who="black_bishop_pawn">
+          <sp xml:id="A07498-e130100" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-221080" facs="33-b-0910">
                 <choice>
@@ -62069,7 +62069,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130440" who="black_bishop_pawn">
+          <sp xml:id="A07498-e130440" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-224100" facs="34-a-0440">
                 <choice>
@@ -62223,7 +62223,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130510" who="white_queen_pawn">
+          <sp xml:id="A07498-e130510" who="A07498-white_queen_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-224660" facs="34-a-0960">
                 <choice>
@@ -62310,7 +62310,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130560" who="black_bishop_pawn">
+          <sp xml:id="A07498-e130560" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-224980" facs="34-a-1240">
                 <choice>
@@ -62448,7 +62448,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130630" who="white_queen_pawn">
+          <sp xml:id="A07498-e130630" who="A07498-white_queen_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-225530" facs="34-a-1750">
                 <choice>
@@ -62553,7 +62553,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130680" who="black_bishop_pawn">
+          <sp xml:id="A07498-e130680" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-225920" facs="34-a-2100">
                 <choice>
@@ -62593,7 +62593,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-226030" unit="sentence" facs="34-a-2200">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e130700" who="white_queen_pawn">
+          <sp xml:id="A07498-e130700" who="A07498-white_queen_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-226070" facs="34-a-2210">
                 <choice>
@@ -62712,7 +62712,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130760" who="black_bishop_pawn">
+          <sp xml:id="A07498-e130760" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-226480" facs="34-a-2580">
                 <choice>
@@ -63130,7 +63130,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e130940" who="black_bishop_pawn">
+          <sp xml:id="A07498-e130940" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-228100" facs="34-b-0440">
                 <choice>
@@ -63218,7 +63218,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-228380" unit="sentence" facs="34-b-0670">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e130980" who="black_bishop_pawn">
+          <sp xml:id="A07498-e130980" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-228420" facs="34-b-0680" rendition="hi">
                 <choice>
@@ -63726,7 +63726,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e131300" who="black_bishop_pawn">
+          <sp xml:id="A07498-e131300" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-230500" facs="34-b-2290">
                 <choice>
@@ -64429,7 +64429,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-233200" unit="sentence" facs="35-a-1060">?</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e131700" who="black_queen_pawn">
+          <sp xml:id="A07498-e131700" who="A07498-black_queen_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-233240" facs="35-a-1070">
                 <choice>
@@ -64594,7 +64594,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e131770" who="black_bishop_pawn">
+          <sp xml:id="A07498-e131770" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-233750" facs="35-a-1540">
                 <choice>
@@ -64660,7 +64660,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e131820" who="white_bishop_pawn">
+          <sp xml:id="A07498-e131820" who="A07498-white_bishop_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-233970" facs="35-a-1710" rendition="hi">
                 <choice>
@@ -64708,7 +64708,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-234100" unit="sentence" facs="35-a-1830">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e131840" who="white_queen_pawn">
+          <sp xml:id="A07498-e131840" who="A07498-white_queen_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-234140" facs="35-a-1840">
                 <choice>
@@ -64748,7 +64748,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-234280" unit="sentence" facs="35-a-1970">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e131860" who="black_bishop_pawn">
+          <sp xml:id="A07498-e131860" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-234320" facs="35-a-1980">
                 <choice>
@@ -64883,7 +64883,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="p." ana="#n1" xml:id="A07498-234780" facs="35-a-2370">p.</w>
             <pc xml:id="A07498-234780-eos" unit="sentence" facs="35-a-2380"/>
           </stage>
-          <sp xml:id="A07498-e131940" who="black_bishop_pawn">
+          <sp xml:id="A07498-e131940" who="A07498-black_bishop_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-234820" facs="35-a-2390">
                 <choice>
@@ -64922,7 +64922,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
             </p>
           </sp>
-          <sp xml:id="A07498-e131960" who="black_knight_pawn">
+          <sp xml:id="A07498-e131960" who="A07498-black_knight_pawn">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-234990" facs="35-a-2520">
                 <choice>
@@ -65111,7 +65111,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="A07498-235590" unit="sentence" facs="35-a-3040">.</pc>
             </p>
           </sp>
-          <sp xml:id="A07498-e132050" who="white_queen_pawn">
+          <sp xml:id="A07498-e132050" who="A07498-white_queen_pawn">
             <speaker>
               <w lemma="white" ana="#j" xml:id="A07498-235630" facs="35-a-3050">
                 <choice>
@@ -67509,7 +67509,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </l>
             </lg>
           </sp>
-          <sp xml:id="A07498-e133110" who="black_knight">
+          <sp xml:id="A07498-e133110" who="A07498-black_knight">
             <speaker>
               <w lemma="black" ana="#j" xml:id="A07498-244140" facs="36-b-0860">
                 <choice>

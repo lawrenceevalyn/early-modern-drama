@@ -6,21 +6,22 @@ except ImportError:
 import os.path
 import collections
 import csv
+import operator
 
 # import my other code
 from find_idno import find_idno
 from stripNamespace import stripNamespace
 from lemmacounter import lemmacounter
 
-# make a mega-counter to shove all the play counts in
-megaCounter = collections.Counter()
+# things to store stuff in
+megaCounter = collections.Counter() #a counter object hash table
+countersList = [] #a list of counter objects
+threeples = [] #megaCounter converted to tuples (with 3 things) by tokenizing 
 
-#make a list for intermediate storage of counters
-countersList = []
-
+#initiate variables
 numfiles = 0
 allLemmasCount = 0
-directory = "corpus_xml"
+directory = "test_corpus"
 
 # make listdir ignore .DS_store (and other hidden files)
 def listdir_nohidden(path):
@@ -30,10 +31,6 @@ def listdir_nohidden(path):
 
 # iterate through the directory
 for filename in listdir_nohidden("./" + directory):
-# TODO: figure out why this won't run on the real corpus; fix it
-# things that might be the issue: 1. stripNamespaces has a problem? compare xmlstring
-# before and after stripNamespaces (see if there's a function to look at the difference)
-# 2. something broken with the XML where it doesn't have the idno or the sp or who knows
 
 	# define the path to this file
 	path = "./" + directory + "/" + filename
@@ -85,6 +82,25 @@ with open(newfilename,'w') as csvfile:
 		if len(keydata) != 2 :
 			print "oooops! bad keydata: %r" % (keydata)
 		rowdata = [keydata[0],keydata[1],value]
-		writer.writerow(rowdata) 
-	
-	#TODO: further refine output of data based on research needs
+		threeples.append(rowdata)
+	sortedthreeples = sorted(threeples, key=operator.itemgetter(0, 2), reverse=True)
+	sortedLongples = [] #empty list
+	longple = () #empty tuple
+	i = 0
+	prevPlay = ''
+	while i < len(sortedthreeples):
+		[play,speaker,count] = sortedthreeples[i]
+		if play == prevPlay:
+			# keep appending to our long tuple
+			longple += (speaker, count)
+		elif prevPlay == '':
+			# we found the first play! store its info
+			longple = (play, speaker, count)
+		else:
+			# write the old one
+			writer.writerow(longple)
+			# make a new one
+			longple = (play, speaker, count)
+		prevPlay = play
+		i += 1
+	writer.writerow(longple) # need to write the last one 
