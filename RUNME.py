@@ -21,7 +21,7 @@ threeples = [] #megaCounter converted to tuples (with 3 things) by tokenizing
 #initiate variables
 numfiles = 0
 allLemmasCount = 0
-directory = "test_corpus"
+directory = "corpus_xml"
 
 # make listdir ignore .DS_store (and other hidden files)
 def listdir_nohidden(path):
@@ -78,11 +78,15 @@ with open(newfilename,'w') as csvfile:
 	writer=csv.writer(csvfile)
 	writer.writerow(fieldnames)
 	for key, value in megaCounter.items():
-		keydata = key.split('-', 1)
-		if len(keydata) != 2 :
-			print "oooops! bad keydata: %r" % (keydata)
-		rowdata = [keydata[0],keydata[1],value]
-		threeples.append(rowdata)
+		if key is None:
+			print "why is there nothing here"
+		else:
+			keydata = key.split('-', 1)
+			if len(keydata) != 2 :
+				print "oooops! bad keydata: %r" % (keydata)
+			else:
+				rowdata = [keydata[0],keydata[1],value]
+				threeples.append(rowdata)
 	sortedthreeples = sorted(threeples, key=operator.itemgetter(0, 2), reverse=True)
 	sortedLongples = [] #empty list
 	longple = () #empty tuple
@@ -103,4 +107,4 @@ with open(newfilename,'w') as csvfile:
 			longple = (play, speaker, count)
 		prevPlay = play
 		i += 1
-	writer.writerow(longple) # need to write the last one 
+	writer.writerow(longple) # need to write the last one
