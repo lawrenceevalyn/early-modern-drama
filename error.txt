@@ -1,19 +1,7 @@
 I read 510 files
-total number of keys in list: 13534
-total number of keys in megaCounter: 13534
-oooops! bad keydata: ['jane']
+total number of keys in list: 13522
+total number of keys in megaCounter: 13522
 why is there nothing here
-oooops! bad keydata: ['dryground']
-oooops! bad keydata: ['unassigned']
-oooops! bad keydata: ['barabas']
-oooops! bad keydata: ['curtiz']
-oooops! bad keydata: ['keeper_3']
-oooops! bad keydata: ['unassivalentinegned']
-oooops! bad keydata: ['eurione']
-oooops! bad keydata: ['valentine']
-oooops! bad keydata: ['blaze']
-oooops! bad keydata: ['trainewell']
-oooops! bad keydata: ['vermin']
 Traceback (most recent call last):
   File "RUNME.py", line 105, in <module>
     writer.writerow(longple)

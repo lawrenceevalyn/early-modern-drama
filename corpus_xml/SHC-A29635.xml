@@ -11948,7 +11948,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e106410" who="valentine">
+            <sp xml:id="A29635-e106410" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-054410" facs="10-b-0210">Val.</w>
                 <pc xml:id="A29635-054410-eos" unit="sentence" facs="10-b-0220"/>
@@ -12026,7 +12026,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e106460" who="valentine">
+            <sp xml:id="A29635-e106460" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-054800" facs="10-b-0530">Val.</w>
                 <pc xml:id="A29635-054800-eos" unit="sentence" facs="10-b-0540"/>
@@ -31875,7 +31875,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <pc xml:id="A29635-150390" unit="sentence" facs="23-b-2550">,</pc>
               </l>
             </sp>
-            <sp xml:id="A29635-e117650" who="dryground">
+            <sp xml:id="A29635-e117650" who="A29635-dryground">
               <speaker>
                 <w lemma="Dryground" ana="#n1-nn" xml:id="A29635-150430" facs="23-b-2560">Dry</w>
                 <c> </c>
@@ -38293,7 +38293,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e121420" who="vermin">
+            <sp xml:id="A29635-e121420" who="A29635-vermin">
               <speaker>
                 <w lemma="Ʋer." ana="#n1-nn" xml:id="A29635-180570" facs="31-a-1280">Ver.</w>
                 <pc xml:id="A29635-180570-eos" unit="sentence" facs="31-a-1290"/>
@@ -38811,7 +38811,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e121680" who="vermin">
+            <sp xml:id="A29635-e121680" who="A29635-vermin">
               <speaker>
                 <w lemma="Ʋer." ana="#n1-nn" xml:id="A29635-182910" facs="31-b-0570">Ver.</w>
                 <pc xml:id="A29635-182910-eos" unit="sentence" facs="31-b-0580"/>
@@ -39402,7 +39402,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <w xml:id="A29635-185570" ana="zz" lemma="〈…〉" facs="31-b-2990">〈…〉</w>
               </l>
             </sp>
-            <sp xml:id="A29635-e122020" who="vermin">
+            <sp xml:id="A29635-e122020" who="A29635-vermin">
               <speaker>
                 <w lemma="Ʋer." ana="#n1-nn" xml:id="A29635-185610" facs="31-b-3000">Ver.</w>
                 <pc xml:id="A29635-185610-eos" unit="sentence" facs="31-b-3010"/>
@@ -41676,7 +41676,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e123040" who="jane">
+            <sp xml:id="A29635-e123040" who="A29635-jane">
               <pb facs="33"/>
               <speaker>
                 <w lemma="J." ana="#n1-nn" xml:id="A29635-196590" facs="33-b-0010">J.</w>
@@ -46087,7 +46087,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </stage>
               </l>
             </sp>
-            <sp xml:id="A29635-e125620" who="vermin">
+            <sp xml:id="A29635-e125620" who="A29635-vermin">
               <speaker>
                 <w lemma="Ʋer." ana="#n1-nn" xml:id="A29635-218230" facs="36-b-2500">Ver.</w>
                 <pc xml:id="A29635-218230-eos" unit="sentence" facs="36-b-2510"/>
@@ -46111,7 +46111,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e125640" who="valentine">
+            <sp xml:id="A29635-e125640" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal" ana="#n1-nn" xml:id="A29635-218350" facs="36-b-2580">
                   <choice>
@@ -51674,7 +51674,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e128820" who="valentine">
+            <sp xml:id="A29635-e128820" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-244650" facs="43-b-0070">Val.</w>
                 <pc xml:id="A29635-244650-eos" unit="sentence" facs="43-b-0080"/>
@@ -51778,7 +51778,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e128880" who="unassivalentinegned">
+            <sp xml:id="A29635-e128880" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-245120" facs="43-b-0470">Val.</w>
                 <pc xml:id="A29635-245120-eos" unit="sentence" facs="43-b-0480"/>
@@ -54741,7 +54741,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e130360" who="valentine">
+            <sp xml:id="A29635-e130360" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-258310" facs="45-a-3030">Val.</w>
                 <pc xml:id="A29635-258310-eos" unit="sentence" facs="45-a-3040"/>
@@ -55312,7 +55312,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e130700" who="valentine">
+            <sp xml:id="A29635-e130700" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-261170" facs="45-b-2180">Val.</w>
                 <pc xml:id="A29635-261170-eos" unit="sentence" facs="45-b-2190"/>
@@ -55444,7 +55444,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e130780" who="valentine">
+            <sp xml:id="A29635-e130780" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-261860" facs="45-b-2800">Val.</w>
                 <pc xml:id="A29635-261860-eos" unit="sentence" facs="45-b-2810"/>
@@ -55505,7 +55505,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e130840" who="valentine">
+            <sp xml:id="A29635-e130840" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-262210" facs="45-b-3080">Val.</w>
                 <pc xml:id="A29635-262210-eos" unit="sentence" facs="45-b-3090"/>
@@ -56045,7 +56045,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e131180" who="valentine">
+            <sp xml:id="A29635-e131180" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-264860" facs="46-a-1960">Val.</w>
                 <pc xml:id="A29635-264860-eos" unit="sentence" facs="46-a-1970"/>
@@ -56094,7 +56094,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e131220" who="valentine">
+            <sp xml:id="A29635-e131220" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-265130" facs="46-a-2160">Val.</w>
                 <pc xml:id="A29635-265130-eos" unit="sentence" facs="46-a-2170"/>
@@ -56177,7 +56177,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
               </l>
             </sp>
-            <sp xml:id="A29635-e131280" who="valentine">
+            <sp xml:id="A29635-e131280" who="A29635-valentine">
               <speaker>
                 <w lemma="Ʋal." ana="#n1-nn" xml:id="A29635-265570" facs="46-a-2530">Val.</w>
                 <pc xml:id="A29635-265570-eos" unit="sentence" facs="46-a-2540"/>
