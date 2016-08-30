@@ -100,9 +100,10 @@ with open(newfilename,'w') as csvfile:
 		elif prevPlay == '':
 			# we found the first play! store its info
 			longple = (play, speaker, count)
+			unicodeLongple = [longple[0].encode('utf-8'), longple[1].encode('utf-8'), longple[2]]
 		else:
 			# write the old one
-			writer.writerow(longple)
+			writer.writerow(unicodeLongple)
 			# make a new one
 			longple = (play, speaker, count)
 		prevPlay = play

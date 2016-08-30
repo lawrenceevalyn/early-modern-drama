@@ -1,8 +1,4 @@
 I read 510 files
-total number of keys in list: 13522
-total number of keys in megaCounter: 13522
+total number of keys in list: 13521
+total number of keys in megaCounter: 13521
 why is there nothing here
-Traceback (most recent call last):
-  File "RUNME.py", line 105, in <module>
-    writer.writerow(longple)
-UnicodeEncodeError: 'ascii' codec can't encode character u'\u25cf' in position 1: ordinal not in range(128)

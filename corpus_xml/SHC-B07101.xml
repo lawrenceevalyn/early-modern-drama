@@ -17011,7 +17011,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </l>
           </sp>
           <pb facs="17" n="20"/>
-          <sp xml:id="B07101-e106190" who="FB07101-guard_1">
+          <sp xml:id="B07101-e106190" who="B07101-guard_1">
             <speaker>
               <w lemma="1" ana="#crd" xml:id="B07101-69430" facs="17-a-0010">1</w>
               <c> </c>
@@ -17198,7 +17198,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <pc xml:id="B07101-70140" unit="sentence" facs="17-a-0600">.</pc>
             </p>
           </sp>
-          <sp xml:id="B07101-e106250" who="FB07101-guard_2">
+          <sp xml:id="B07101-e106250" who="B07101-guard_2">
             <speaker>
               <w lemma="2" ana="#crd" xml:id="B07101-70180" facs="17-a-0610">2</w>
               <c> </c>
