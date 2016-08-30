@@ -85,7 +85,7 @@ with open(newfilename,'w') as csvfile:
 			if len(keydata) != 2 :
 				print "oooops! bad keydata: %r" % (keydata)
 			else:
-				rowdata = [keydata[0],keydata[1],value]
+				rowdata = [keydata[0].encode('utf-8'),keydata[1].encode('utf-8'),value]
 				threeples.append(rowdata)
 	sortedthreeples = sorted(threeples, key=operator.itemgetter(0, 2), reverse=True)
 	sortedLongples = [] #empty list
@@ -100,10 +100,9 @@ with open(newfilename,'w') as csvfile:
 		elif prevPlay == '':
 			# we found the first play! store its info
 			longple = (play, speaker, count)
-			unicodeLongple = [longple[0].encode('utf-8'), longple[1].encode('utf-8'), longple[2]]
 		else:
 			# write the old one
-			writer.writerow(unicodeLongple)
+			writer.writerow(longple)
 			# make a new one
 			longple = (play, speaker, count)
 		prevPlay = play
