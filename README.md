@@ -1,6 +1,6 @@
 # What this Program Does
 
-This program will count all the `&lt;`w`&gt;` tags (for words) that are within `&lt;`l`&gt;`, `&lt;`lg`&gt;`, or `&lt;`p`&gt;` tags (for line, linegroup, or paragraphs) and will associate those counts with the who="" information of the `&lt;`sp`&gt;` speaker tag within which those words appear. It goes through the whole "corpus" folder and produces one row of spreadsheet data per play, with speakers sorted from most words to fewest.
+This program will count all the &lt;w&gt; tags (for words) that are within &lt;l&gt;, &lt;lg&gt;, or &lt;p&gt; tags (for line, linegroup, or paragraphs) and will associate those counts with the who="" information of the &lt;sp&gt; speaker tag within which those words appear. It goes through the whole "corpus" folder and produces one row of spreadsheet data per play, with speakers sorted from most words to fewest.
 
 # How to Run this Program
 
