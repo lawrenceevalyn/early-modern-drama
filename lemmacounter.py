@@ -1,3 +1,7 @@
+# this is a function that counts all the <w> tags within <l>, <lg>, and <p> tags
+# it takes in a gigantic string of the whole play
+# and returns a counter object, which is a big hash
+
 import collections
 try:
     import xml.etree.cElementTree as ET

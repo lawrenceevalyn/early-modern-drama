@@ -1,6 +1,9 @@
+# As the name suggests, this is the main program that you need to run
+# It will 'call' the other sub-programs as needed
+
 # import libraries
 try:
-    import xml.etree.cElementTree as ET
+    import xml.etree.cElementTree as ET     # this makes it faster
 except ImportError:
     import xml.etree.ElementTree as ET
 import os.path
@@ -21,7 +24,7 @@ threeples = [] #megaCounter converted to tuples (with 3 things) by tokenizing
 #initiate variables
 numfiles = 0
 allLemmasCount = 0
-directory = "corpus_xml"
+directory = "corpus"
 
 # make listdir ignore .DS_store (and other hidden files)
 def listdir_nohidden(path):
@@ -41,7 +44,9 @@ for filename in listdir_nohidden("./" + directory):
 	except:
 		print "error stripping namespace of file %s" % (filename)
 	
-	# call find-idno.py to print the file's DLPS idno
+	# call find-idno.py to print the file's TCP number
+	# this is just so you can tell that the program's running,
+	# and possibly see how far it got before it crashed (in case of problems)
 	try:
 		idno = find_idno(xmlstring)
 		print idno
@@ -61,37 +66,57 @@ for filename in listdir_nohidden("./" + directory):
 	# increment a counter to see how many I read
 	numfiles += 1
 
+# print some stuff so you know what's going on
 print "I read %d files" % (numfiles)
 print "total number of keys in list: %d" % (allLemmasCount)
 
-#TODO: merge counters of plays with the same title (but NOT the same idno)
+#TODO: merge counters of plays if they have the same idno AND title?
 
 for counter in countersList:
 #	print counter
 	megaCounter += counter
 
+# compare this to the total number of keys in list to make sure they all made it
 print "total number of keys in megaCounter: %d" % (len(megaCounter.keys()))
 
+# time to start writing this stuff to the CSV!
 newfilename = "output_%s.csv" % (directory)
 with open(newfilename,'w') as csvfile:
-	fieldnames=['tcp','speaker','count']
+	fieldnames=['tcp','speaker','count'] # names the first 3 columns of the CSV
 	writer=csv.writer(csvfile)
 	writer.writerow(fieldnames)
+	
+	# go through all the TCPspeaker-count pairs
 	for key, value in megaCounter.items():
 		if key is None:
 			print "why is there nothing here"
+			# this means that somehow you have a number without a speaker
+			# you need to fix this in the XML but you have no information
+			# I'm sorry
 		else:
+			# split the TCP number from the speaker's name
 			keydata = key.split('-', 1)
+			# make sure we split it right
 			if len(keydata) != 2 :
-				print "oooops! bad keydata: %r" % (keydata)
+				print "oooops! malformed XML for speaker: %r" % (keydata)
+				# this means the XML didn't follow the format of TCP-speaker
+				# usually it's because the who= element doesn't have the TCP
+				# you need to fix the XML based on the speaker name
+			# if it split properly, carry on with storing the play, speaker, and count
 			else:
 				rowdata = [keydata[0].encode('utf-8'),keydata[1].encode('utf-8'),value]
 				threeples.append(rowdata)
+	
+	# declares some variables we're gonna need to organize this stuff
 	sortedthreeples = sorted(threeples, key=operator.itemgetter(0, 2), reverse=True)
 	sortedLongples = [] #empty list
 	longple = () #empty tuple
 	i = 0
 	prevPlay = ''
+	
+	# loop through the TCP-speaker-count data
+	# write each triple down in the right place
+	# the goal here is to have one row per play
 	while i < len(sortedthreeples):
 		[play,speaker,count] = sortedthreeples[i]
 		if play == prevPlay:

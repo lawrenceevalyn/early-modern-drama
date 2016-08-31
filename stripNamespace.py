@@ -7,10 +7,12 @@ def stripNamespace(path):
 	with open(path, 'r') as myfile:
 		xmlstring=myfile.read()
     
-		# use a regex!
+		# use a regex! say a prayer
 		xmlstring = re.sub(' xmlns="[^"]+"', '', xmlstring)
 		
 		# add the xml version and unicode encoding
+		# I think actually our unicode problems came at the writing stage, not here
+		# but why not?
 		xmlstring = '<?xml version="1.0" encoding="utf-8"?>' + xmlstring
 		
 	return xmlstring

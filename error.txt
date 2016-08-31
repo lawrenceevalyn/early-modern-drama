@@ -1,4 +1,0 @@
-I read 510 files
-total number of keys in list: 13521
-total number of keys in megaCounter: 13521
-why is there nothing here

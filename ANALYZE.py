@@ -1,3 +1,6 @@
+# This program doesn't do anything right now;
+# this file is here for later, just in case
+
 # import libraries
 try:
     import xml.etree.cElementTree as ET
