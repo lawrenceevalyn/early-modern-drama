@@ -10,7 +10,11 @@ These instructions assume that you are unfamiliar with GitHub and running softwa
 
 You don't need to clone the repository, since you won't be editing the code, just running it. Download the ZIP and unzip it, and you should see a collection of files just like on this website!
 
-## 2. Get into the command line
+## 2. Put a folder called "corpus" inside the early-modern-drama folder
+
+The program is hard-coded to run on the folder named "corpus" which is in the same directory as RUNME.py, but this repo no longer includes a corpus. Put all your XML files in a folder called "corpus" and put that folder in the place where the program will look for it, i.e., in the early-modern-drama folder.
+
+## 3. Get into the command line
 
 [This tutorial](https://www.davidbaumgold.com/tutorials/command-line/) has more information -- once you've found and opened your command line interface, you need to navigate to 'be' in the same place as the folder containing all of these program files.
 
@@ -20,7 +24,7 @@ cd ~/Desktop/early-modern-drama
 
 You can type "ls" to list what's around you, and if it's the same files you see on this website, you're in the right place.
 
-## 3. Run the "RUNME.py" program
+## 4. Run the "RUNME.py" program
 
 Try the following command:
 
@@ -30,7 +34,7 @@ If it started spewing TCP numbers at you, the program is running! It takes about
 
 If none of that happened, you probably need to [install Python](https://www.python.org/download/releases/2.7/)
 
-## 4. The program does all the work!
+## 5. The program does all the work!
 
 You don't have to specify your input -- the program will automatically run on everything it finds in the "corpus" folder. (So you can change the stuff in the corpus folder as much as you like to see how it changes your counts!) It will automatically create a file called output_corpus.csv and put all the data there. If there's already a file called output_corpus.csv, it will overwrite that one, so be careful!
 
