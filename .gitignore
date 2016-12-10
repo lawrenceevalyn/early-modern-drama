@@ -1,2 +1,5 @@
+/corpus/*
+/test_corpus/*
+
 *.pyc
 .DS_Store
